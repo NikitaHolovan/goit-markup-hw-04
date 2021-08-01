@@ -143,6 +143,9 @@ a {
 }
 /* Section Hero */
 .section-hero {
+  background-image: url(../images/bgimage.png);
+  background-repeat: no-repeat;
+  background-position: center center;
   background-color: var(--background-hero-color);
   padding: 200px 0;
 }
@@ -197,7 +200,32 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+/*
+.benefit-box::before {
+  content: "";
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 30px;
+  background-color: var(--background-secondary-color);
+  border-radius: 4px;
+}
 
+.benefit-box.1::before {
+  background-image: url(../images/icons/icons.svg#icon-antenna);
+}
+.benefit-box.2::before {
+  background-image: url(../images/icons/icons.svg#icon-clock);
+}
+.benefit-box.3::before {
+  background-image: url(../images/icons/icons.svg#icon-diagram);
+}
+.benefit-box.4::before {
+  background-image: url(../images/icons/icons.svg#icon-astronaut);
+}
+*/
 .benefit-description {
   color: var(--secondary-text-color);
   font-weight: 400;
