@@ -152,6 +152,20 @@ a {
 .contact-link svg {
   fill: var(--secondary-text-color);
 }
+
+.contact-link.mail {
+  display: flex;
+  align-items: center;
+}
+.contact-link.phone {
+  display: flex;
+  align-items: center;
+}
+
+.item .contact-link svg {
+  margin-right: 10px;
+}
+
 /*
 .contact-link.mail::before {
   width: 16px;
