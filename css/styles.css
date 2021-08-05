@@ -385,10 +385,10 @@ a {
 .teammate-social:focus svg {
   fill: var(--primary-white-color);
 }
-.teammate-social svg {
+/* .teammate-social svg {
   height: 20px;
   width: 20px;
-}
+} */
 
 /*ПОСТОЯНННЫЕ КЛИЕНТЫ*/
 .section-clients {
@@ -406,29 +406,29 @@ a {
   border: 1px solid var(--social-icons-primary);
   border-radius: 4px;
   */
+  padding: 16px 32px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--social-icons-primary);
 }
 .client-link:not(:last-child) {
   margin-right: 30px;
 }
 .client-link svg {
-  border: 1px solid var(--social-icons-primary);
-  border-radius: 4px;
-  width: 170px;
-  height: 92px;
   fill: var(--social-icons-primary);
 }
-.client-link :hover,
-.client-link :focus {
+.client-link:hover,
+.client-link:focus {
   border-color: var(--accent-color);
 }
-.client-link svg:hover,
-.client-link svg:focus {
+.client-link:hover svg,
+.client-link:focus svg {
   fill: var(--accent-color);
 }
-.icon-company_1 {
+
+/* .icon-company_1 {
   padding: 23px 65px;
 }
 .icon-company_2 {
@@ -445,7 +445,7 @@ a {
 }
 .icon-company_6 {
   padding: 23px 38px;
-}
+} */
 
 /* Footer */
 
@@ -535,9 +535,9 @@ a {
 .studio-social:focus svg {
   fill: var(--primary-white-color);
 }
-.studio-social svg {
-  height: 20px;
-}
+/* .studio-social svg {
+  height: 20px; width: 20px;
+} */
 
 /*Portfolio*/
 .portfolio-section {
